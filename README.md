@@ -25,8 +25,11 @@ nipype
 
 To Start training the model:
 ```
-$ python new_train.py
+$ python New_train.py
 ```
+you can also download pretrained model from link.
+[Your Link Here](https://drive.google.com/file/d/1ylYeJ4fxDbSpLrVQB3hLkg6i9_HsZAnv/view?usp=sharing)
+
 
 
 ### Write prediction images from the validation data
@@ -34,9 +37,19 @@ $ python new_train.py
 ```
 $ python new_model_prediction.py
 ```
-The predictions will be written in the ```prtV``` folder along with the input data and ground truth labels for 
+The predictions of our pretrained model is in the ```prtV``` folder along with the input data and ground truth labels for 
 comparison.
 I have also uploded the pretrained model prediction outputs and each dice score in the pretv folder.
+you can download all outputs from 
+[Your Link Here](https://drive.google.com/file/d/11iQMOGd3moDCxTwtrYIButIVvgeO36Z0/view?usp=sharing)
+
+
+
+
+
+For Evaluation Run evaluate.py
+
+
 
 
 ## Citations
